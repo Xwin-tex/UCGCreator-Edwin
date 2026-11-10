@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#171717"/>
+  <rect x="60" y="60" width="1480" height="880" fill="none" stroke="#F5F1E9" stroke-width="2" stroke-dasharray="10 8" opacity="0.5"/>
+  <g><line x1="1312" y1="200" x2="1402" y2="200" stroke="#B9D8FF" stroke-width="14.4" stroke-linecap="round" opacity="0.9" transform="rotate(0 1312 200)"/><line x1="1312" y1="200" x2="1375.6396103067893" y2="263.6396103067893" stroke="#B9D8FF" stroke-width="14.4" stroke-linecap="round" opacity="0.9" transform="rotate(0 1312 200)"/><line x1="1312" y1="200" x2="1312" y2="290" stroke="#B9D8FF" stroke-width="14.4" stroke-linecap="round" opacity="0.9" transform="rotate(0 1312 200)"/><line x1="1312" y1="200" x2="1248.3603896932107" y2="263.6396103067893" stroke="#B9D8FF" stroke-width="14.4" stroke-linecap="round" opacity="0.9" transform="rotate(0 1312 200)"/><line x1="1312" y1="200" x2="1222" y2="200" stroke="#B9D8FF" stroke-width="14.4" stroke-linecap="round" opacity="0.9" transform="rotate(0 1312 200)"/><line x1="1312" y1="200" x2="1248.3603896932107" y2="136.36038969321072" stroke="#B9D8FF" stroke-width="14.4" stroke-linecap="round" opacity="0.9" transform="rotate(0 1312 200)"/><line x1="1312" y1="200" x2="1312" y2="110" stroke="#B9D8FF" stroke-width="14.4" stroke-linecap="round" opacity="0.9" transform="rotate(0 1312 200)"/><line x1="1312" y1="200" x2="1375.6396103067893" y2="136.36038969321072" stroke="#B9D8FF" stroke-width="14.4" stroke-linecap="round" opacity="0.9" transform="rotate(0 1312 200)"/><circle cx="1312" cy="200" r="12.600000000000001" fill="#B9D8FF" opacity="0.9"/></g>
+  <text x="84" y="892" font-family="'Space Grotesk','Arial',sans-serif" font-weight="700" font-size="420" fill="#B9D8FF" opacity="0.92">07</text>
+  <text x="800" y="500" text-anchor="middle" font-family="'Space Grotesk','Arial',sans-serif" font-weight="700" letter-spacing="6" font-size="72" fill="#F5F1E9">STORYTELLING</text>
+  <text x="800" y="599" text-anchor="middle" font-family="'DM Sans','Arial',sans-serif" font-size="45" fill="#F5F1E9" opacity="0.65">replace with a real image or video</text>
+  <g stroke="#F5F1E9" stroke-width="2" opacity="0.85">
+    <path d="M 60 100 V 60 H 100" fill="none"/>
+    <path d="M 1500 60 H 1540 V 100" fill="none"/>
+    <path d="M 1540 900 V 940 H 1500" fill="none"/>
+    <path d="M 100 940 H 60 V 900" fill="none"/>
+  </g>
+</svg>

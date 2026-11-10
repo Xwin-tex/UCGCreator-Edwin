@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <rect width="900" height="1100" fill="#F5F1E9"/>
+  <rect x="54" y="54" width="792" height="992" fill="none" stroke="#171717" stroke-width="2" stroke-dasharray="10 8" opacity="0.5"/>
+  <g><line x1="738" y1="220" x2="819" y2="220" stroke="#B9D8FF" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 220)"/><line x1="738" y1="220" x2="795.2756492761104" y2="277.27564927611036" stroke="#B9D8FF" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 220)"/><line x1="738" y1="220" x2="738" y2="301" stroke="#B9D8FF" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 220)"/><line x1="738" y1="220" x2="680.7243507238896" y2="277.27564927611036" stroke="#B9D8FF" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 220)"/><line x1="738" y1="220" x2="657" y2="220" stroke="#B9D8FF" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 220)"/><line x1="738" y1="220" x2="680.7243507238896" y2="162.72435072388964" stroke="#B9D8FF" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 220)"/><line x1="738" y1="220" x2="738" y2="139" stroke="#B9D8FF" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 220)"/><line x1="738" y1="220" x2="795.2756492761104" y2="162.72435072388964" stroke="#B9D8FF" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 220)"/><circle cx="738" cy="220" r="11.340000000000002" fill="#B9D8FF" opacity="0.9"/></g>
+  <text x="75.6" y="1002.8" font-family="'Space Grotesk','Arial',sans-serif" font-weight="700" font-size="378" fill="#B9D8FF" opacity="0.92">02</text>
+  <text x="450" y="550" text-anchor="middle" font-family="'Space Grotesk','Arial',sans-serif" font-weight="700" letter-spacing="6" font-size="66" fill="#171717">EDITORIAL</text>
+  <text x="450" y="640" text-anchor="middle" font-family="'DM Sans','Arial',sans-serif" font-size="41" fill="#171717" opacity="0.65">replace with about-01.jpg (9:11)</text>
+  <g stroke="#171717" stroke-width="2" opacity="0.85">
+    <path d="M 54 90 V 54 H 90" fill="none"/>
+    <path d="M 810 54 H 846 V 90" fill="none"/>
+    <path d="M 846 1010 V 1046 H 810" fill="none"/>
+    <path d="M 90 1046 H 54 V 1010" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────
+   TERNESITO® DESIGN SYSTEM — Tailwind 4 theme
+   ───────────────────────────────────────────── */
+
+@theme {
+  /* Brand palette */
+  --color-carbon: #171717;
+  --color-carbon-soft: #232323;
+  --color-cream: #f5f1e9;
+  --color-orange: #ff6333;
+  --color-sky: #b9d8ff;
+
+  /* Motion */
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@theme inline {
+  /* Typography — variables are injected by next/font at runtime */
+  --font-display: var(--font-space-grotesk), "Arial Black", sans-serif;
+  --font-body: var(--font-dm-sans), system-ui, sans-serif;
+  --font-editorial: var(--font-playfair), Georgia, serif;
+}
+
+/* ── Base ─────────────────────────────────── */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-carbon);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-orange);
+  color: var(--color-carbon);
+}
+
+/* Visible, accessible focus everywhere */
+:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 3px;
+}
+
+/* ── Custom utilities ─────────────────────── */
+
+/* Outlined display type */
+@utility text-stroke-cream {
+  -webkit-text-stroke: 1.5px var(--color-cream);
+  color: transparent;
+}
+@utility text-stroke-carbon {
+  -webkit-text-stroke: 1.5px var(--color-carbon);
+  color: transparent;
+}
+@utility text-stroke-orange {
+  -webkit-text-stroke: 1.5px var(--color-orange);
+  color: transparent;
+}
+
+/* Editorial marquee */
+@keyframes marquee-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  animation: marquee-x 28s linear infinite;
+  will-change: transform;
+}
+
+/* Slow rotation for badges / asterisks */
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin-slow 16s linear infinite;
+}
+
+/* Gentle float for editorial labels */
+@keyframes float-y {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.animate-float {
+  animation: float-y 5s ease-in-out infinite;
+}
+.animate-float-delayed {
+  animation: float-y 6s ease-in-out 1.2s infinite;
+}
+
+/* Film grain overlay */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Hide native cursor only when the custom one is active */
+.custom-cursor-active,
+.custom-cursor-active a,
+.custom-cursor-active button {
+  cursor: none;
+}
+
+/* ── Reduced motion ───────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .marquee-track,
+  .animate-spin-slow,
+  .animate-float,
+  .animate-float-delayed {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

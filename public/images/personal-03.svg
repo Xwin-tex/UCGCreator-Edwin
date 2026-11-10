@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#FF6333"/>
+  <rect x="54" y="54" width="792" height="792" fill="none" stroke="#171717" stroke-width="2" stroke-dasharray="10 8" opacity="0.5"/>
+  <g><line x1="738" y1="180" x2="819" y2="180" stroke="#F5F1E9" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 180)"/><line x1="738" y1="180" x2="795.2756492761104" y2="237.27564927611036" stroke="#F5F1E9" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 180)"/><line x1="738" y1="180" x2="738" y2="261" stroke="#F5F1E9" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 180)"/><line x1="738" y1="180" x2="680.7243507238896" y2="237.27564927611036" stroke="#F5F1E9" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 180)"/><line x1="738" y1="180" x2="657" y2="180" stroke="#F5F1E9" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 180)"/><line x1="738" y1="180" x2="680.7243507238896" y2="122.72435072388966" stroke="#F5F1E9" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 180)"/><line x1="738" y1="180" x2="738" y2="99" stroke="#F5F1E9" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 180)"/><line x1="738" y1="180" x2="795.2756492761104" y2="122.72435072388964" stroke="#F5F1E9" stroke-width="12.96" stroke-linecap="round" opacity="0.9" transform="rotate(0 738 180)"/><circle cx="738" cy="180" r="11.340000000000002" fill="#F5F1E9" opacity="0.9"/></g>
+  <text x="75.6" y="802.8" font-family="'Space Grotesk','Arial',sans-serif" font-weight="700" font-size="378" fill="#F5F1E9" opacity="0.92">★</text>
+  <text x="450" y="450" text-anchor="middle" font-family="'Space Grotesk','Arial',sans-serif" font-weight="700" letter-spacing="6" font-size="66" fill="#171717">EVERYDAY 03</text>
+  <text x="450" y="540" text-anchor="middle" font-family="'DM Sans','Arial',sans-serif" font-size="41" fill="#171717" opacity="0.65">replace with a real photo (square)</text>
+  <g stroke="#171717" stroke-width="2" opacity="0.85">
+    <path d="M 54 90 V 54 H 90" fill="none"/>
+    <path d="M 810 54 H 846 V 90" fill="none"/>
+    <path d="M 846 810 V 846 H 810" fill="none"/>
+    <path d="M 90 846 H 54 V 810" fill="none"/>
+  </g>
+</svg>
