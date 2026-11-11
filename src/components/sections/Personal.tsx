@@ -9,9 +9,9 @@ import { ImageReveal, Reveal } from "@/components/ui/Reveal";
 
 const POLAROIDS = [
   { src: "/images/personal-01.jpg", width: 1500, height: 2000, rotate: "rotate-[-3deg]" },
-  { src: "/images/personal-02.svg", width: 900, height: 900, rotate: "rotate-[2.5deg]" },
-  { src: "/images/personal-03.svg", width: 900, height: 900, rotate: "rotate-[3.5deg]" },
-  { src: "/images/personal-04.svg", width: 900, height: 900, rotate: "rotate-[-2deg]" },
+  { src: "/images/personal-02.jpg", width: 768, height: 698, rotate: "rotate-[2.5deg]" },
+  { src: "/images/personal-03.jpg", width: 768, height: 698, rotate: "rotate-[3.5deg]" },
+  { src: "/images/personal-04.jpg", width: 768, height: 698, rotate: "rotate-[-2deg]" },
 ];
 
 export default function Personal({ dict }: { dict: Dictionary["personal"] }) {

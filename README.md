@@ -37,20 +37,26 @@ All editable content lives in **`src/content/`** — you should almost never nee
 - `social.instagram` → already points to [@ternesitoou](https://www.instagram.com/ternesitoou/).
 
 ### 2. Photographs & videos
-Your real photos are already integrated (see the table below). The remaining
-labeled placeholder SVGs live in **`public/images/`** — replace them with real
-photos keeping the **same filename** (or update the paths in the components):
+Your real photos are already integrated, and the remaining slots use
+AI-generated editorial illustrations matched to the site's palette (see table
+below). Replace the 🤖 ones with your own photos keeping the **same filename**
+(or update the paths in the components):
 
 | File | Used in | Status |
 | --- | --- | --- |
 | `hero-portrait.jpg` | Hero portrait (main) | ✅ real photo |
 | `about-01.jpg` | About main portrait + Hero back | ✅ real photo |
 | `about-02.jpg` | About secondary | ✅ real photo |
-| `about-03.svg` | About detail | ⬜ placeholder |
+| `about-03.jpg` | About detail | 🤖 AI illustration |
 | `personal-01.jpg` | Personal touch polaroid | ✅ real photo |
-| `personal-02..04.svg` | Personal touch polaroids | ⬜ placeholders |
+| `personal-02..04.jpg` | Personal touch polaroids | 🤖 AI illustrations |
 | `work-neon-natives.jpg` | Portfolio card | ✅ real photo |
-| `work-*.svg` (rest) | Portfolio bento grid | ⬜ placeholders |
+| `work-*.jpg` (rest) | Portfolio bento grid | 🤖 AI illustrations |
+
+The AI illustrations (🤖) were generated to match the site's palette (cream /
+charcoal / orange) as **temporary stand-ins** — swap them for your own photos or
+real project shots whenever you have them. They also have no real people's
+likenesses and are always shown under the SPEC WORK badge.
 
 For real photos, prefer `.jpg`/`.webp`; `next/image` will optimize them automatically.
 If you update a photo, also update its `width`/`height` in the component or in
@@ -75,7 +81,9 @@ Every user-facing string, EN and ES side by side. Keep both objects key-identica
 - Set `CONTACT_WEBHOOK_URL` in `.env.local` (see `.env.example`) to a Formspree/n8n/own-API endpoint.
 - Without it, the form gracefully opens the visitor's email app instead.
 
-### 6. Regenerating placeholders (optional)
+### 6. Regenerating placeholders (no longer needed)
+All image slots are filled (real photos + AI illustrations). The old generator
+is kept only for reference:
 ```bash
 node scripts/generate-placeholders.mjs
 ```
@@ -98,7 +106,7 @@ src/
   content/             ← site.ts · dictionaries.ts · projects.ts · services.ts
   lib/i18n.ts          ← locales, cookie name, helpers
 proxy.ts               ← locale redirect (Next 16's middleware)
-scripts/               ← placeholder generator
+scripts/               ← placeholder generator (kept for reference)
 ```
 
 ## Accessibility & performance notes

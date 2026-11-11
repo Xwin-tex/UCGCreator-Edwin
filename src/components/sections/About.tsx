@@ -39,9 +39,9 @@ export default function About({ dict }: { dict: AboutDict }) {
       wrap: "w-full rotate-[-2deg]",
     },
     {
-      src: "/images/about-03.svg",
-      width: 700,
-      height: 900,
+      src: "/images/about-03.jpg",
+      width: 676,
+      height: 792,
       caption: dict.annotations.tertiary,
       wrap: "w-[70%] ml-auto rotate-[4deg] -mt-10",
     },
