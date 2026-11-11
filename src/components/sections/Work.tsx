@@ -149,7 +149,7 @@ export default function Work({
                     {/* Hover overlay */}
                     <div className="absolute inset-0 flex flex-col justify-between bg-carbon/0 p-4 transition-colors duration-300 group-hover:bg-carbon/35">
                       <span className="self-start rounded-full bg-cream px-3 py-1 font-display text-[9px] font-bold uppercase tracking-[0.18em] text-carbon">
-                        {work.specBadge}
+                        {project.isSpec ? work.specBadge : work.organicBadge}
                       </span>
                       <span className="flex items-center gap-2 self-end rounded-full bg-orange px-4 py-2 font-display text-[10px] font-bold uppercase tracking-[0.18em] text-carbon opacity-0 transition-all duration-300 group-hover:opacity-100">
                         {work.viewProject}
@@ -251,7 +251,7 @@ export default function Work({
                     />
                   )}
                   <span className="absolute left-4 top-4 rounded-full bg-orange px-3 py-1 font-display text-[9px] font-bold uppercase tracking-[0.18em] text-carbon">
-                    {work.specBadge}
+                    {selected.isSpec ? work.specBadge : work.organicBadge}
                   </span>
                 </div>
 
@@ -287,7 +287,7 @@ export default function Work({
                   </p>
 
                   <p className="mt-6 border-l-2 border-orange pl-3 font-editorial text-sm italic text-carbon/60">
-                    {work.modal.specNote}
+                    {selected.isSpec ? work.modal.specNote : work.modal.realNote}
                   </p>
 
                   <a

@@ -115,10 +115,10 @@ export default function Hero({
             >
               <div className="border border-carbon/15 bg-cream p-2 shadow-[6px_8px_0_0_rgba(23,23,23,0.12)]">
                 <Image
-                  src="/images/about-01.svg"
+                  src="/images/about-01.jpg"
                   alt={dict.about.annotations.secondary}
-                  width={900}
-                  height={1100}
+                  width={720}
+                  height={1280}
                   className="h-auto w-full"
                   priority={false}
                 />
@@ -135,10 +135,10 @@ export default function Hero({
             >
               <div className="border border-carbon/15 bg-cream p-2 shadow-[10px_12px_0_0_rgba(23,23,23,0.16)]">
                 <Image
-                  src="/images/hero-portrait.svg"
-                  alt={`${site.creator} — ${site.role}. Replace with a real portrait.`}
-                  width={1000}
-                  height={1250}
+                  src="/images/hero-portrait.jpg"
+                  alt={`${site.creator} — ${site.role}`}
+                  width={1125}
+                  height={2000}
                   priority
                   className="h-auto w-full"
                 />

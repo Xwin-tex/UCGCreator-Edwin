@@ -89,8 +89,9 @@ export const en = {
     kicker: "SELECTED WORK",
     title: "A LITTLE BIT OF EVERYTHING. A LOT OF PERSONALITY.",
     subtitle:
-      "Concept projects and content formats I create for brands. Everything here is spec work — built to show you how your product could look in my feed.",
+      "Concept projects and content formats I create for brands — plus a few real moments from my own feed. Spec work is clearly labeled, so you can see how your product could look in my feed.",
     specBadge: "SPEC WORK",
+    organicBadge: "REAL CONTENT",
     videoBadge: "VIDEO",
     photoBadge: "PHOTO",
     viewProject: "VIEW PROJECT",
@@ -104,6 +105,8 @@ export const en = {
       cta: "START A PROJECT LIKE THIS",
       specNote:
         "This is a conceptual project (spec work) created to demonstrate a content direction. No brand collaboration is implied.",
+      realNote:
+        "This is real, self-published content from my own feed. No brand collaboration is implied — it's here to show my voice in action.",
     },
   },
 
@@ -305,8 +308,9 @@ export const es: Dictionary = {
     kicker: "TRABAJO SELECCIONADO",
     title: "UN POCO DE TODO. MUCHA PERSONALIDAD.",
     subtitle:
-      "Proyectos conceptuales y formatos de contenido que creo para marcas. Todo lo que ves aquí es spec work: hecho para mostrarte cómo podría verse tu producto en mi feed.",
+      "Proyectos conceptuales y formatos de contenido que creo para marcas — más algunos momentos reales de mi propio feed. El spec work está claramente etiquetado para que veas cómo podría verse tu producto en mi feed.",
     specBadge: "SPEC WORK",
+    organicBadge: "CONTENIDO REAL",
     videoBadge: "VIDEO",
     photoBadge: "FOTO",
     viewProject: "VER PROYECTO",
@@ -321,6 +325,8 @@ export const es: Dictionary = {
       cta: "QUIERO UN PROYECTO ASÍ",
       specNote:
         "Este es un proyecto conceptual (spec work) creado para demostrar una dirección de contenido. No implica ninguna colaboración con una marca.",
+      realNote:
+        "Este es contenido real y autogestionado de mi propio feed. No implica ninguna colaboración con una marca — está aquí para mostrar mi voz en acción.",
     },
   },
 

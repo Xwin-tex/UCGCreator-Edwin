@@ -37,22 +37,35 @@ All editable content lives in **`src/content/`** — you should almost never nee
 - `social.instagram` → already points to [@ternesitoou](https://www.instagram.com/ternesitoou/).
 
 ### 2. Photographs & videos
-Placeholders are clearly labeled editorial SVGs in **`public/images/`**.
-Replace them with real photos keeping the **same filename** (or update the paths):
+Your real photos are already integrated (see the table below). The remaining
+labeled placeholder SVGs live in **`public/images/`** — replace them with real
+photos keeping the **same filename** (or update the paths in the components):
 
-| File | Used in | Suggested ratio |
+| File | Used in | Status |
 | --- | --- | --- |
-| `hero-portrait.svg` | Hero portrait | 4:5 |
-| `about-01/02/03.svg` | About section | 9:11 / 9:7 / 7:9 |
-| `work-*.svg` | Portfolio bento grid | varies |
-| `personal-01..04.svg` | Personal touch | 1:1 |
+| `hero-portrait.jpg` | Hero portrait (main) | ✅ real photo |
+| `about-01.jpg` | About main portrait + Hero back | ✅ real photo |
+| `about-02.jpg` | About secondary | ✅ real photo |
+| `about-03.svg` | About detail | ⬜ placeholder |
+| `personal-01.jpg` | Personal touch polaroid | ✅ real photo |
+| `personal-02..04.svg` | Personal touch polaroids | ⬜ placeholders |
+| `work-neon-natives.jpg` | Portfolio card | ✅ real photo |
+| `work-*.svg` (rest) | Portfolio bento grid | ⬜ placeholders |
 
 For real photos, prefer `.jpg`/`.webp`; `next/image` will optimize them automatically.
+If you update a photo, also update its `width`/`height` in the component or in
+`src/content/projects.ts` so the layout doesn't shift.
 
-**Portfolio videos:** in `src/content/projects.ts`, add `video: "/videos/my-video.mp4"` (and optionally `poster:`) to any project. Vertical 9:16 MP4, H.264, muted-friendly. The card and modal will automatically switch to a video player.
+**Portfolio videos:** two real organic reels are already live
+(`public/videos/ugc-02.mp4`, `ugc-03.mp4`, used by the "Self-published"
+projects). To swap or add more, edit `src/content/projects.ts`: set
+`video: "/videos/my-video.mp4"` (and optionally `poster:`) on any project.
+Vertical 9:16 MP4, H.264, muted-friendly. The card and modal automatically
+switch to a video player.
 
 ### 3. Portfolio projects — `src/content/projects.ts`
-- Every project is currently labeled **SPEC WORK** (conceptual). Do not remove that label until a real collaboration replaces it.
+- Projects without a brand (`isSpec: false`) are real, self-published organic content — the UI shows them with a "REAL CONTENT" badge instead of "SPEC WORK".
+- Do not remove the SPEC WORK label from conceptual projects until a real collaboration replaces it.
 - To add a real project: set `isSpec: false`, put the real brand in `brand`, and update `title`, `format`, `image`/`video` and the EN/ES descriptions.
 
 ### 4. Translations & copy — `src/content/dictionaries.ts`

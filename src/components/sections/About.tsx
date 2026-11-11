@@ -32,9 +32,9 @@ type AboutDict = Dictionary["about"];
 export default function About({ dict }: { dict: AboutDict }) {
   const images = [
     {
-      src: "/images/about-02.svg",
-      width: 900,
-      height: 700,
+      src: "/images/about-02.jpg",
+      width: 1500,
+      height: 2000,
       caption: dict.annotations.secondary,
       wrap: "w-full rotate-[-2deg]",
     },
@@ -100,10 +100,10 @@ export default function About({ dict }: { dict: AboutDict }) {
               <figure className="relative">
                 <div className="border border-cream/15 bg-cream p-2 shadow-[10px_12px_0_0_rgba(245,241,233,0.08)]">
                   <Image
-                    src="/images/about-01.svg"
-                    alt={`${site.creator} — editorial portrait. ${dict.annotations.portrait}`}
-                    width={900}
-                    height={1100}
+                    src="/images/about-01.jpg"
+                    alt={`${site.creator} — ${dict.annotations.portrait}`}
+                    width={720}
+                    height={1280}
                     className="h-auto w-full"
                   />
                 </div>
