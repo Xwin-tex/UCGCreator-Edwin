@@ -8,7 +8,7 @@
 
 export const site = {
   /** Public, canonical URL of the deployed site (no trailing slash). */
-  url: "https://ternesito.com",
+  url: "https://ucgcreator-edwin.vercel.app",
 
   brand: "TERNESITO®",
   creator: "Edwin Ternera",
@@ -20,14 +20,13 @@ export const site = {
     availability: "Worldwide",
   },
 
-  /** CONTACT — replace with real details. */
+  /** CONTACT */
   contact: {
-    /** Placeholder email. Replace with the real one. */
-    email: "hola@ternesito.com",
-    /** Placeholder WhatsApp number in international format, digits only. */
-    whatsappNumber: "573000000000",
+    email: "edwinternera2@gmail.com",
+    /** WhatsApp number in international format, digits only. */
+    whatsappNumber: "573126033059",
     /** Human-readable version shown on the site. */
-    whatsappDisplay: "+57 300 000 0000",
+    whatsappDisplay: "+57 312 603 3059",
     /** Optional webhook (Formspree, n8n, Make, your own API…) that
      *  receives the contact form as JSON POST. Also set it in .env.local
      *  as CONTACT_WEBHOOK_URL. Leave empty to disable the form. */
